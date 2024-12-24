@@ -6,7 +6,7 @@ import pefile
         file_path (str): Chemin vers le fichier PE.
     Returns:
         dict: Dictionnaire contenant les features extraites.
-    """
+"""
 
 def extract_malware_features(file_path):
     try:
