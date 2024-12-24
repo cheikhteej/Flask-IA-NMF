@@ -34,3 +34,8 @@ def malware_test():
             return {"y_pred": "1"}
     
     return {"message": "Type de fichier invalide"}
+
+
+# @app.route('*')
+# def accueil():
+#     return render_template("malware_index.html")

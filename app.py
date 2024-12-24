@@ -1,9 +1,11 @@
 import os
-from flask import Flask 
+from flask import Flask #, request, send_from_directory
+# from extract import *
+# import joblib
 
 
 
-app = Flask(__name__)
+app = Flask(__name__,static_folder='templates')
 
 
 from routes import *
@@ -11,3 +13,5 @@ from routes import *
 
 if __name__ == '__main__':
     app.run()
+
+
